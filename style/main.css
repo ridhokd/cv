@@ -8,12 +8,26 @@ ul {
 	list-style: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
 /*class*/
 .title {
 	margin-left: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 0px;
+}
+
+.welcome_img {
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
 }
 
 .navbar {
@@ -32,6 +46,44 @@ ul {
 	gap: 9px;
 }
 
+.about_title {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.about_me_image {
+	margin-left: 190px;
+	margin-top: 70px;
+}
+
+.ovf_content {
+	float: right;
+	word-spacing: 5px;
+	width: 370px;
+	height: 350px;
+	overflow: auto;
+	margin-top: 50px;
+	margin-right: 150px;
+}
+
+.ovf_content p {
+	padding-top: 3px;
+	padding-left: 3px;
+}
+
+.skill_page h1 {
+	margin: 100px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.icon_cont {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 50px;
+}
+
 /*id*/
 #title {
 	font-size: 35px;
@@ -46,4 +98,24 @@ ul {
 #navbar_content a{
 	color: black;
 	text-decoration: none;
+}
+
+#about_title {
+	width: 170px;
+}
+
+#about_me_image {
+	width: 24.5%;
+	border-radius: 5%;
+	box-shadow: 10px 10px #888;
+}
+
+#about_me p {
+	font-size: 21px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#welcome_img {
+	width: 40%;
 }
