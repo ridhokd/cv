@@ -105,19 +105,62 @@ body {
 }
 
 .twt_img {
+	padding-top: 5px;
+	padding-left: 5px;
+	display: flex;
 	float: left;
 }
 
 .twtbtn {
-	display: flex;
 	width: 245px;
-	justify-content: space-evenly;
 }
 
 .twtbtn p{
 	padding-top: 20px;
+	padding-left: 20px;
 	display: flex;
 	text-align: center;
+}
+
+.contact-content {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 50px;
+}
+
+.ig_img {
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.igbtn {
+	width: 245px;
+}
+
+.igbtn p{
+	padding-top: 20px;
+	padding-left: 20px;
+	display: flex;
+	text-align: center;
+}
+
+.git_img {
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.gitbtn {
+	width: 245px;
+}
+
+.gitbtn p{
+	padding-top: 20px;
+	padding-left: 20px;
+	display: flex;
+	text-align: center;	
 }
 
 /*id*/
@@ -169,15 +212,64 @@ body {
 	width: 40%;
 }
 
+
 #twt_img {
 	width: 20%;
 	border-radius: 50%;
-}
+}	
 
 #twtbtn {
-	border-radius: 0;
+	border-radius: 20px;
+}
+
+#twtbtn:hover {
+	background-color: lightgray;
 }
 
 #twtbtn:active {
-	background-color: whitesmoke;
+	background-color: white;
+}
+
+#twtbtn p {
+	font-size: 19px;
+}
+
+#ig_img {
+	width: 22%;
+}
+
+#igbtn {
+	border-radius: 20px;
+}
+
+#igbtn:hover {
+	background-color: lightgray;
+}
+
+#igbtn:active {
+	background-color: white;
+}
+
+#igbtn p{
+	font-size: 19px;
+}
+
+#git_img {
+	width: 20%;
+}
+
+#gitbtn {
+	border-radius: 20px;
+}
+
+#gitbtn:hover {
+	background-color: lightgray;
+}
+
+#gitbtn:active {
+	background-color: white;
+}
+
+#gitbtn p{
+	font-size: 19px;
 }
